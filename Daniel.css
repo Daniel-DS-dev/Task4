@@ -1,0 +1,250 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.wholebody{
+    width:80%;
+    margin:auto;
+    border: 5px solid #333;
+}
+
+.button {
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background-color:#48D1CC;
+    color:white;
+}
+
+img {
+    border-radius: 50% ;
+    border:10px solid #48D1CC;
+    height:250px;
+    width:20%;
+    position:absolute;
+    top:35px;
+    left:5%;
+    
+}
+
+.pic{   
+    background-color:#333;
+    margin:0;
+    padding:1px;
+    height:190px;
+    text-align:center;
+    position:relative;
+    color:white;
+}
+
+.pic h1{
+    position:absolute;
+    top:50px;
+    right:450px;
+
+
+}
+
+.container{
+    width:100%;
+    margin:auto;
+    
+    
+}
+
+#main{
+    background-color:#48D1CC;
+    float:right;
+    width:70%;
+    margin:0;
+    padding-left:15px;
+    box-sizing:border-box;
+    color:white;
+   
+}
+
+
+#side {
+    background-color: #48D1CC;
+    float:left;
+    width:30%;
+    margin:0;
+    padding:15px;
+    box-sizing:border-box;
+    height:138px;
+    font-size: 12px;
+    line-height: 0.5em;
+    
+}
+
+.clr{
+    clear:both;
+}
+
+
+
+.info{
+    background-color:white;
+    margin:20;
+    padding:1px;
+    color:mediumturquoise;
+}
+.info p{
+    margin:65px;
+    display:inline;
+    font-size:12px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+}
+
+
+.mainchick {
+    background-color:#48D1CC;
+    color:white;
+    float:left;
+    width:30%;
+    margin:0;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+   
+}
+
+
+.sidechick {
+    background-color: rgb(231, 231, 231);
+    float:right;
+    width:70%;
+    margin:0;
+    padding:15px;
+    box-sizing:border-box;
+    height:69px;
+    
+    
+}
+
+.grandmainchick {
+    float:left;
+    width:25%;
+    margin:0;
+    padding:26px;
+    box-sizing:border-box;
+
+   
+}
+
+
+.grandsidechick {
+    float:right;
+    width:75%;
+    margin:0;
+    padding:13px;
+    box-sizing:border-box;
+    line-height:0.4em;
+}
+
+.grandsidechick p{
+    font-size:14px;
+}
+
+.grandsidechick h4{
+    font-weight:normal;
+    line-height:0em;
+}
+
+.grandmainchick2 {
+    float:left;
+    width:25%;
+    margin-left:-65px;
+    padding:90px;
+    box-sizing:border-box;
+       
+}
+
+
+.grandsidechick2 {
+    float:right;
+    width:75%;
+    margin:0;
+    padding:13px;
+    box-sizing:border-box;   
+    line-height:0.4em;
+}
+
+.grandsidechick2 p{
+    font-size:14px;
+
+}
+
+.grandsidechick2 h4{
+    font-weight:normal;
+    line-height:0em;
+}
+
+progress {
+    border: none;
+    background: crimson;
+    
+  }
+  
+  progress {
+    color: lightblue;
+  }
+  
+  progress::-webkit-progress-value {
+    background: lightblue;
+  }
+  
+ 
+  
+  progress::-webkit-progress-value {
+    background: #48D1CC;
+  }
+  
+  
+
+
+
+footer{
+
+background-color:#333;
+height:190px;
+width:100%;
+margin:auto;
+}
+
+
+.my-form{
+    padding:20px;
+
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+}
+
