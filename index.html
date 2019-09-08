@@ -233,23 +233,8 @@
 
 <div class="clr"></div>
 
-<form class="my-form">
-
-
-    
-    <div class="form-group">
-        <label>Title: 
-            <select required>
-                <option value="" selected>Select Title</option>
-                <option value="Dr">Dr</option>
-                <option value="Mr">Mr</option>
-                <option value="Mrs">Mrs</option>
-                <option value="Miss">Miss</option>
-            </select>
-        </label>
-    </div>
-
-    <div class="form-group">
+<form  class="my-form" action="index.php" method="POST">
+ <div class="form-group">
         <label>Name: 
             <input type="text" name="name" minlength="4" required />
         </label>
@@ -259,6 +244,12 @@
         <label>Email: 
             <input type="text" name="email" required placeholder="Email e.g Username@domain.com" >
         </label>
+    </div>
+
+    <div class="form-group">
+    <label>Title:
+        <input type="text" name="title" required placeholder="Title of your message.">
+      </label>
     </div>
 
     <div class="form-group">
